@@ -10,6 +10,7 @@ The Eat Safe, Love project is a comprehensive codebase designed to assist the ed
 
 
 **Part 1: Database and Jupyter Notebook Setup**
+
 This section of the codebase ensures a seamless setup for data analysis.
 
 **Database Import:** The code imports the establishments data provided in the establishments.json file into a MongoDB database named "uk_food" and a collection named "establishments". This enables easy access and manipulation of the data within a powerful NoSQL database.
@@ -23,6 +24,7 @@ This section of the codebase ensures a seamless setup for data analysis.
 
 
 **Part 2: Update the Database**
+
 This section focuses on fulfilling the specific modifications requested by the editors to refine the database before conducting queries and analysis.
 
 **Including a New Restaurant:** An exciting new halal restaurant in Greenwich is identified and needs to be included in the analysis. The code determines the BusinessTypeID for "Restaurant/Cafe/Canteen" and updates the new restaurant's information accordingly. This ensures comprehensive coverage of relevant establishments in the analysis.
@@ -34,6 +36,7 @@ This section focuses on fulfilling the specific modifications requested by the e
 
 
 **Part 3: Exploratory Analysis**
+
 This section unleashes the full potential of the Eat Safe, Love project by performing in-depth exploratory analysis on the food hygiene rating dataset.
 
 **Analyzing Rating Values:** The code explores the RatingValue field, which represents the overall rating assigned by the Food Authority on a scale of 1 to 5. This analysis provides valuable insights into the quality and cleanliness of establishments.
